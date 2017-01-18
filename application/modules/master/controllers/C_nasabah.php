@@ -191,6 +191,7 @@ class C_nasabah extends MX_Controller {
               
             );
             $result = $this->m_base->insert_data('tabungan', $data);
+            
             $this->session->set_flashdata('notif_type','success');
 			$this->session->set_flashdata('notif_pesan','transaksi Penambahan Saldo.');
 		$this->output->set_content_type('application/json')->set_output(json_encode($result));
