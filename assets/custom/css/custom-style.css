@@ -1,0 +1,43 @@
+.page-sidebar .page-sidebar-menu > li > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.modal-add{
+    background-color: #3598dc;
+}
+.modal-edit{
+    background-color: #36D7B7;
+}
+
+.table > thead{
+    background-color: #2f353b;
+    color: #fff;
+}
+
+.icon-action, .icon-action:hover, .icon-action:focus{
+    color: #000;
+}
+
+.icon-action-default, .icon-action-default:hover, .icon-action-default:focus{
+    color: #000;
+}
+.icon-action-pending, .icon-action-pending:hover, .icon-action-pending:focus{
+    color: #E87E04;
+}
+.icon-action-reject, .icon-action-reject:hover, .icon-action-reject:focus{
+    color: #8E44AD;
+}
+.icon-action-edit, .icon-action-edit:hover, .icon-action-edit:focus{
+    color: #1BBC9B;
+}
+.icon-action-delete, .icon-action-delete:hover, .icon-action-delete:focus{
+    color: #D91E18;
+}
+
+/*.icon-danger-datatable, .icon-danger-datatable:focus{
+    color: #000;
+}
+.icon-danger-datatable:hover{
+    color: #ED6B75;
+}*/
